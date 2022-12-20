@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('../fonts/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('../fonts/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body {
     margin: 0;
 }
@@ -6,4 +13,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
