@@ -6,8 +6,17 @@
     font-style: normal;
 
 }
+
+
 body {
     margin: 0;
+    background-color: #D1D5DB;  
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .container {
@@ -17,4 +26,15 @@ body {
     height: 385px;
     margin: 0 auto;
     margin-top: 50px;
+    background: linear-gradient(to top, rgba(6, 78, 59, 0.6), rgba(6, 78, 59, 1));
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.guest-container,
+.home-container {
+    display: flex;
+    text-align: center;
+    padding: 5px;
 }
