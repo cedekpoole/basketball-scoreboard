@@ -57,7 +57,9 @@ button:hover {
     margin: 0 auto;
     background: linear-gradient(to top, rgba(6, 78, 59, 0.6), rgba(6, 78, 59, 1));
     border-radius: 10px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    outline: 3px solid black;
+    outline-offset: -20px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -73,15 +75,14 @@ button:hover {
 
 #home-count,
 #guest-count {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     margin-top: 10px;
-    border-radius: 10px;
     outline: 3px solid black;
     color: #F94F6D;
     font-family: 'cursed_timer_ulilregular';
     font-size: 90px;
     padding-top: 20px;
-    width: 155px;
+    width: 170px;
     height: 120px;
     margin-bottom: 20px;
 }
